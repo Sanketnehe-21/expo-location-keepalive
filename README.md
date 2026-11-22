@@ -1,10 +1,6 @@
 # expo-location-keepalive
 
 <p align="center">
-  <img src="docs/banner.svg" alt="expo-location-keepalive banner" width="100%" />
-</p>
-
-<p align="center">
   <a href="https://www.npmjs.com/package/expo-location-keepalive"><img src="https://img.shields.io/npm/v/expo-location-keepalive.svg?style=flat-square&color=blue" alt="npm version" /></a>
   <a href="https://www.npmjs.com/package/expo-location-keepalive"><img src="https://img.shields.io/npm/dm/expo-location-keepalive.svg?style=flat-square&color=blue" alt="npm downloads" /></a>
   <a href="https://github.com/Sanketnehe-21/expo-location-keepalive/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square" alt="license" /></a>
