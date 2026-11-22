@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+  <!-- Shows Android's own "allow background" dialog (requestBatteryUnrestricted).
+       Google Play requires a declaration for this permission — see README. -->
+  <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+  <application>
+    <!-- Watches tracking; restarted by Android after an OEM kill, restores
+         tracking, and becomes the location foreground service in the background. -->
+    <service
+      android:name="expo.modules.locationkeepalive.KeepAliveGuardService"
+      android:exported="false"
+      android:foregroundServiceType="location"
+      android:stopWithTask="false" />
+
+    <receiver
+      android:name="expo.modules.locationkeepalive.KeepAliveWakeReceiver"
+      android:exported="false" />
+  </application>
+</manifest>

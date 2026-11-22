@@ -1,0 +1,46 @@
+{
+  "name": "expo-location-keepalive",
+  "version": "0.1.0",
+  "description": "Keeps expo-location background tracking alive on Android after the app is swiped away or killed by OEM battery managers (Xiaomi, Oppo, Vivo, TECNO, Samsung).",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sanketnehe-21/expo-location-keepalive.git"
+  },
+  "homepage": "https://github.com/Sanketnehe-21/expo-location-keepalive#readme",
+  "bugs": {
+    "url": "https://github.com/Sanketnehe-21/expo-location-keepalive/issues"
+  },
+  "author": "Sanket Nehe",
+  "files": [
+    "src",
+    "android",
+    "expo-module.config.json",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "keywords": [
+    "expo",
+    "react-native",
+    "expo-location",
+    "background-location",
+    "foreground-service",
+    "android",
+    "keep-alive",
+    "expo-task-manager"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "expo": ">=54.0.0",
+    "expo-location": ">=19.0.0",
+    "expo-task-manager": ">=14.0.0",
+    "react-native": "*"
+  },
+  "peerDependenciesMeta": {
+    "@react-native-async-storage/async-storage": {
+      "optional": true
+    }
+  }
+}
